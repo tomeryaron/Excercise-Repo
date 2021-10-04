@@ -2,4 +2,7 @@ node{
     stage("one"){
         sh 'ls'
     }
+    stage("one"){
+        echo "hi it's stage 2"
+    }
 }
